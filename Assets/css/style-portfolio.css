@@ -1,3 +1,55 @@
-.container {
-    background: red;
+/* Nav Element Modification */
+
+nav {
+    border: 5px #cccccc solid;
+    margin-right: 3em;
+    margin-left: 3em;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #777777;
+}
+
+#A-myName {
+    color: white;
+}
+
+#A-myName:hover {
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+span.navName {
+    background: #4aaaa5;
+    padding: 17px 10px 14px 10px;
+    border-radius: 10px;
+}
+
+/* Not Nav-Element Modification */
+
+img {
+    width: 200px;
+    height: 200px;
+    margin-left: 4%;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-family: "Georgia", Times, "Times New Roman", serif;
+}
+
+p {
+    color: #777777;
+    font-size: 12pt;
+}
+
+footer {
+    background: #777777;
+    height: 2rem;
+    border-top: 8px solid #4aaaa5;
 }

@@ -6,7 +6,7 @@
     <title>hw2.contact.html</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="Assets/style-contact.css">
+    <link rel="stylesheet" href="Assets/css/style-contact.css">
 </head>
 
 <body>
@@ -14,7 +14,7 @@
         <!--Full length <nav> Object-->
         <ul class="nav justify-content-center">
             <li class="nav-item">
-                <a class="nav-link active" href="#">Sean Cumming</a>
+                <a id="A-myName" class="nav-link active" href="#"><span class="navName">Sean Cumming</span></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">About</a>
@@ -31,10 +31,9 @@
         <!--Row[0]-->
         <section class="row">
             <header class="col-md-12">
-                <div class="card">
-                    <div class="card-body">
+                <div class="h2Wrap">
                         <h2>Contact</h2>
-                    </div>
+                        <hr>
                 </div>
             </header>
         </section>
@@ -66,16 +65,15 @@
         <!--Row[2]-->
         <section class="row">
             <header class="col-md-6">
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button id="buttonObj" type="submit" class="btn btn-primary">Submit</button>
             </header>
         </section>
         <!--Row[3]-->
         <section class="row">
             <div class="col-md-12">
-                <footer style="border: 10px solid black">Footer</footer>
+                <footer></footer>
             </div>
         </section>
     </div>
 </body>
-
 </html>

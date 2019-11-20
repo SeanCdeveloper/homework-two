@@ -1,10 +1,14 @@
-
 nav {
     border: 5px #cccccc solid;
+    margin-right: 3em;
+    margin-left: 3em;
 }
 
-nav, .container, .card {
-    background-image: url("../Assets/Images/triangle-mosaic.png"); 
+nav, .container, header {
+    /*
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/triangle-mosaic.png");
+    */
+    background-image: url("Assets/Images/triangle-mosaic.png");
 }
 
 a {
@@ -49,13 +53,15 @@ p {
 }
 
 footer {
-    background: #666666;
+    background: #777777;
     height: 2rem;
     border-top: 8px solid #4aaaa5;
-    color: #777777;
+    margin-left: 3em;
+    margin-right: 3em;
 }
 
-.container {   
+.container { 
+    /*  
     border: 10px solid #dddddd;
+    */
 }
-
