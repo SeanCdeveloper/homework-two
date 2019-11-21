@@ -34,8 +34,79 @@ span.navName {
 
 img {
     width: 200px;
-    height: 200px;
-    margin-left: 4%;
+    height: auto;
+    margin: 2em 0 0 2em;
+    border: 2px ridge black;
+}
+
+#imgContainer0 {
+    position: relative;
+}
+
+.textContainer0 {     
+    position: absolute;
+    top: 70px;
+    left: 44px;
+    padding: 5px;
+    background: #4aaaa5;
+    color: white;  
+    padding: 0px 10px 0px 25px;
+}
+
+#imgContainer1 {
+    position: relative;
+}
+
+.textContainer1 {
+    position: absolute;
+    top: 100px;
+    left: 44px;
+    padding: 5px;
+    background: #4aaaa5;
+    color: white;  
+    padding: 0px 10px 0px 25px;
+}
+
+#imgContainer2 {
+    position: relative;  
+}
+
+.textContainer2 {
+    position: absolute;
+    top: 100px;
+    left: 44px;
+    padding: 5px;
+    background: #4aaaa5;
+    color: white;  
+    padding: 0px 10px 0px 25px;
+}
+
+#imgContainer3 {
+    position: relative;   
+}
+
+.textContainer3 {
+    position: absolute;
+    top: 75px;
+    left: 44px;
+    padding: 5px;
+    background: #4aaaa5;
+    color: white;  
+    padding: 0px 10px 0px 25px;
+}
+
+#imgContainer4 {
+    position: relative;
+}
+
+.textContainer4 {
+    position: absolute;
+    top: 150px;
+    left: 44px;
+    padding: 5px;
+    background: #4aaaa5;
+    color: white;  
+    padding: 0px 10px 0px 25px;
 }
 
 h2 {
@@ -53,3 +124,4 @@ footer {
     height: 2rem;
     border-top: 8px solid #4aaaa5;
 }
+

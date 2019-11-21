@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <title>hw2.portfolio.html</title>
@@ -9,52 +8,81 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="Assets/css/style-portfolio.css">
 </head>
-
 <body>
-    <nav>
-        <!--Full-Length <nav> Object -->
-        <ul class="nav justify-content-center">
-            <li class="nav-item">
-                <a id="A-myName" class="nav-link active" href="#"><span class="navName">Sean Cumming</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-            </li>
-        </ul>
-    </nav>
-    <div class="container">
-        <!--Row[0]-->
-        <section class="row">
-            <header class="col-md-12">
-                <div class="h2Container">
-                        <h2>Portfolio</h2>
-                        <hr>
-                </div>
-            </header>
-        </section>
+    <!--Row[0]-->
+    <section class="row">
+        <div class="col-md-12">
+            <nav>
+                <!--Full length <nav> Object-->
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a id="A-myName" class="nav-link active" href="#"><span class="navName">Sean Cumming</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <section class="container">
         <!--Row[1]-->
-        <section class="row">
-            <header class="col-md-12" id="imageObjects">
-                <a id="aImg0" href="https://scratch.mit.edu/projects/337901050/"><img src="Assets/Images/myScratchGamePic.png" alt="Placeholder" class="img-thumbnail"></a>
-                <a id="aImg1" href="#"><img src="Assets/Images/SantanaFanpagePic.png" alt="Placeholder" class="img-thumbnail"></a>
-                <a id="aImg2" href="#"><img src="Assets/Images/Sentence-Diagramming_if-statements.png" alt="Placeholder" class="img-thumbnail"></a>
-                <a id="aImg3" href="#"><img src="Assets/Images/Button-Mod.png" alt="Placeholder" class="img-thumbnail"></a>
-                <a id="aImg4" href="#"><img src="Assets/Images/MatrixModifyingDiv.png" alt="Placeholder" class="img-thumbnail"></a>
-            </header>
-        </section>
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Portfolio</h2>
+                <hr>
+            </div>
+        </div>
         <!--Row[2]-->
         <section class="row">
-            <div class="col-md-12">
+            <div class="col-md-12" id="imageObjects">
+                <div class="row">
+                    <!--Image[0]-->
+                    <div id="imgContainer0">
+                        <a id="aImg0" href="https://scratch.mit.edu/projects/337901050/"><img
+                                src="Assets/Images/myScratchGamePic.png" alt="My Scratch Game Pic" class="img-fluid"></img>
+                            <div class="textContainer0">My Scratch Game</div></a>
+                    </div>
+                    <!--Image[1]-->
+                    <div id="imgContainer1">
+                        <a id="aImg1" href="#"><img src="Assets/Images/SantanaFanpagePic.png" alt="Santana Image="
+                                class="img-fluid">
+                        <div class="textContainer1">Santana Concert Page</div></a>
+                    </div>
+
+                    <!--Image[2]-->
+                    <div id="imgContainer2">
+                        <a id="aImg2" href="#"><img src="Assets/Images/Sentence-Diagramming_if-statements.png"
+                                alt="if statement study guid" class="img-fluid">
+                        <div class="textContainer2">if Statement Study Page</div></a>
+                    </div>
+
+                    <!--Image[3]-->
+                    <div id="imgContainer3">
+                        <a id="aImg3" href="#"><img src="Assets/Images/Button-Mod.png" alt="Placeholder"
+                                class="img-fluid">
+                        <div class="textContainer3">Button-Mod Page</div></a>
+                    </div>
+                    <!--Image[4]-->
+                    <div id="imgContainer4">
+                        <a id="aImg4" href="#"><img src="Assets/Images/MatrixModifyingDiv.png" alt="Placeholder"
+                                class="img-fluid">
+                        <div class="textContainer4">Matrix-Modifying Div</div></a>
+                    </div>
+                </div>
+        </section>
+        <!--Row[3]-->
+        <section class="row">
+            <div class="col-lg-12">
                 <footer></footer>
             </div>
         </section>
-    </div>
+        </div>
 </body>
-
 </html>
