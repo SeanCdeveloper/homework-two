@@ -2,11 +2,12 @@
 
 nav {
     border: 5px #cccccc solid;
-    /* 
-    margin-right: 3em;
-    margin-left: 3em;
-    */
 }
+
+nav, .container, header {
+    background-image: url("../Images/triangle-mosaic.png");
+}
+
 
 a {
     text-decoration: none;

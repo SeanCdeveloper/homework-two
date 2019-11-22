@@ -1,21 +1,16 @@
 nav {
     border: 5px #cccccc solid;
-    margin-right: 3em;
-    margin-left: 3em;
 }
 
 nav, .container, header {
-    /*
-    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/triangle-mosaic.png");
-    */
-    background-image: url("Assets/Images/triangle-mosaic.png");
+    background-image: url("../Images/triangle-mosaic.png");
 }
 
 a {
     text-decoration: none;
     font-weight: bold;
     color: #777777;
-}
+} 
 
 #A-myName {
     color: white;
@@ -58,10 +53,4 @@ footer {
     border-top: 8px solid #4aaaa5;
     margin-left: 3em;
     margin-right: 3em;
-}
-
-.container { 
-    /*  
-    border: 10px solid #dddddd;
-    */
 }

@@ -2,8 +2,10 @@
 
 nav {
     border: 5px #cccccc solid;
-    margin-right: 3em;
-    margin-left: 3em;
+}
+
+nav, .container, header {
+    background-image: url("../Images/triangle-mosaic.png")
 }
 
 a {
@@ -34,7 +36,7 @@ span.navName {
 
 img {
     width: 200px;
-    height: auto;
+    height: 200px;
     margin: 2em 0 0 2em;
     border: 2px ridge black;
 }
@@ -125,3 +127,6 @@ footer {
     border-top: 8px solid #4aaaa5;
 }
 
+body {
+  background-image: url("../Images/triangle-mosaic.png");
+}
