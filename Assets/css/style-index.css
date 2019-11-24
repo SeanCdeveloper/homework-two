@@ -4,7 +4,6 @@ nav {
     border: 5px #cccccc solid;
 }
 
-
 nav, .container {
     background: #ffffff;    
 }
@@ -67,5 +66,3 @@ footer {
 #containerHeightIncreaser {
     margin-bottom: 8em;
 }
-
-
