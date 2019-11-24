@@ -1,9 +1,16 @@
+/* Nav Element Modification */
+
 nav {
     border: 5px #cccccc solid;
 }
 
-nav, .container, header {
-    background-image: url("../Images/triangle-mosaic.png");
+
+nav, .container {
+    background: #ffffff;    
+}
+
+body {
+    background-image: url("../Images/triangle-mosaic.png"); 
 }
 
 a {
@@ -44,7 +51,7 @@ h2 {
 
 p {
     color: #777777;
-    font-size: 12pt;
+    font-size: 11.5pt;
 }
 
 footer {
@@ -52,3 +59,13 @@ footer {
     height: 2rem;
     border-top: 8px solid #4aaaa5;
 }
+
+.container {
+    border: 1px solid black;
+}
+
+#containerHeightIncreaser {
+    margin-bottom: 8em;
+}
+
+

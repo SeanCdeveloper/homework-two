@@ -4,10 +4,13 @@ nav {
     border: 5px #cccccc solid;
 }
 
-nav, .container, header {
-    background-image: url("../Images/triangle-mosaic.png");
+nav, .container {
+    background: #ffffff;
 }
 
+body {
+    background-image: url("../Images/triangle-mosaic.png");
+}
 
 a {
     text-decoration: none;
@@ -59,3 +62,12 @@ footer {
 #buttonObj:active {
     transform: translate(2px, 1px);
 }
+
+.container {
+    border: 1px solid black;
+}
+
+#containerHeightIncreaser {
+    height: 10em;
+}
+

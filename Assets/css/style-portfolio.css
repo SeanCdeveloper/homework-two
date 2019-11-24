@@ -5,7 +5,11 @@ nav {
 }
 
 nav, .container {
-    background-image: url("../Images/triangle-mosaic.png")
+    background: #ffffff;
+}
+
+body {
+    background-image: url("../Images/triangle-mosaic.png");
 }
 
 a {
@@ -127,6 +131,12 @@ footer {
     border-top: 8px solid #4aaaa5;
 }
 
+.container {
+    border: 1px solid black;
+}
 
+#containerHeightIncreaser {
+    margin-bottom: 8em;
+}
   
   
